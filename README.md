@@ -29,9 +29,9 @@
 ### Решение:
 
 ```
-SELECT district FROM address WHERE (district LIKE 'K%a' AND district NOT LIKE '% %');
+SELECT DISTINCT district FROM address WHERE (district LIKE 'K%a' AND district NOT LIKE '% %');
 ```
-![Снимок83](https://github.com/Makarov-Denis/12_03-SQL-1/assets/148921246/e5be5ccc-d58d-4d33-9270-af80b339ae8e)
+![Снимок83](https://github.com/Makarov-Denis/12_03-SQL-1/assets/148921246/1e57be68-79e6-4c80-bafe-de3a167257c8)
 
 ---
 
